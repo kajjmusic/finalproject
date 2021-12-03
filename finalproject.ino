@@ -107,7 +107,7 @@ void changePreset() {
     }
     Serial.print("Current Preset: ");
     Serial.println(presetName[currentPreset]);
-    delay(100);
+    delay(50);
   }
   if (buttonOn[1] == true) {
     currentPreset -= 1;
@@ -116,7 +116,7 @@ void changePreset() {
     }
     Serial.print("Current Preset: ");
     Serial.println(presetName[currentPreset]);
-    delay(100);
+    delay(50);
   }
 }
 
